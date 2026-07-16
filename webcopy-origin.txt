@@ -1,0 +1,36 @@
+Uri: https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap
+File Name: C:\Downloaded Web Sites\zero2vpn.ru\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf
+File Name: C:\Downloaded Web Sites\zero2vpn.ru\s\manrope\v20\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F.ttf
+File Name: C:\Downloaded Web Sites\zero2vpn.ru\s\manrope\v20\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf
+File Name: C:\Downloaded Web Sites\zero2vpn.ru\s\manrope\v20\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf
+Content Type: font/ttf
+
+Uri: https://zero2vpn.ru/
+File Name: C:\Downloaded Web Sites\zero2vpn.ru\index.htm
+Content Type: text/html
+
+Uri: https://zero2vpn.ru/logo.png
+File Name: C:\Downloaded Web Sites\zero2vpn.ru\logo.png
+Content Type: image/png
+
+Uri: https://zero2vpn.ru/privacy
+File Name: C:\Downloaded Web Sites\zero2vpn.ru\privacy.html
+Content Type: text/html
+
+Uri: https://zero2vpn.ru/proxy
+File Name: C:\Downloaded Web Sites\zero2vpn.ru\proxy.html
+Content Type: text/html
+
+Uri: https://zero2vpn.ru/terms
+File Name: C:\Downloaded Web Sites\zero2vpn.ru\terms.html
+Content Type: text/html
+

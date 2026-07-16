@@ -1,0 +1,249 @@
+﻿<!doctype html>
+<html lang="ru" class="proxy-root">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Holo2 Proxy — прокси для Telegram</title>
+    <meta name="description" content="Zero2 Proxy — страница быстрого подключения MTProto Proxy для Telegram. Подключение в один клик или ручная настройка по серверу, порту и secret.">
+    <meta property="og:title" content="Zero2 Proxy">
+    <meta property="og:description" content="Подключите прокси для Telegram в один клик или откройте параметры для ручной настройки.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="proxy-page">
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container">
+          <div class="header-bar">
+            <a class="brand" href="index.htm" data-local-href="index.html" aria-label="Holo2 VPN">
+              <img src="logo.png" data-local-src="logo.png" alt="Логотип Holo2 VPN">
+              <span class="brand-name">Holo2 VPN</span>
+            </a>
+            <div class="desktop-nav">
+              <span class="brand-badge"><span class="brand-dot"></span> Telegram Proxy</span>
+              <a class="nav-link" href="index.htm" data-local-href="index.html">Главная</a>
+              <a class="nav-link" href="privacy.html" data-local-href="privacy.html">Политика</a>
+              <a class="nav-link" href="terms.html" data-local-href="terms.html">Соглашение</a>
+              <a class="button-secondary" href="https://t.me/holo2vpnbot" target="_blank" rel="noreferrer">
+                Открыть бота
+              </a>
+            </div>
+            <details class="menu">
+              <summary class="menu-toggle" aria-label="Открыть меню">
+                <span class="menu-icon"><span></span></span>
+              </summary>
+              <nav class="menu-panel" aria-label="Основное меню">
+                <a class="menu-link" href="index.htm" data-local-href="index.html">Главная</a>
+                <a class="menu-link" href="proxy.html" data-local-href="proxy.html">Прокси для Telegram</a>
+                <a class="menu-link" href="privacy.html" data-local-href="privacy.html">Политика конфиденциальности</a>
+                <a class="menu-link" href="terms.html" data-local-href="terms.html">Пользовательское соглашение</a>
+                <a class="button-secondary" href="https://t.me/holo2vpnbot" target="_blank" rel="noreferrer">
+                  Открыть бота
+                </a>
+              </nav>
+            </details>
+          </div>
+        </div>
+      </header>
+
+      <main class="proxy-main">
+        <section class="proxy-stage">
+          <div class="container">
+            <article class="panel proxy-hero-panel">
+              <div class="proxy-hero-copy">
+                <span class="proxy-kicker">Holo2 Proxy</span>
+                <h1>
+                  Прокси для Telegram
+                  <span>в один клик</span>
+                </h1>
+                <p>
+                  Подключите MTProto Proxy по ссылке ниже. Если Telegram не открыл подключение
+                  автоматически, используйте параметры для ручной настройки ниже на странице.
+                </p>
+                <div class="proxy-hero-actions">
+                  <a class="button proxy-primary-action" href="tg://proxy?server=open.zero2dev.ru&port=7443&secret=ee7be085c15aa9ba2b0f60993635fd13fc6f70656e2e7a65726f326465762e7275">
+                    Подключить в Telegram
+                  </a>
+                  <a class="button-secondary proxy-secondary-action" href="#manual">
+                    Данные для ручной настройки
+                  </a>
+                </div>
+                <div class="proxy-hero-note">
+                  Страница предназначена только для быстрого подключения и передачи ссылки другим пользователям.
+                </div>
+              </div>
+
+              <div class="proxy-hero-line" aria-label="Краткие параметры">
+                <div class="proxy-inline-metric">
+                  <span>Формат</span>
+                  <strong>MTProto</strong>
+                </div>
+                <div class="proxy-inline-metric">
+                  <span>Сервер</span>
+                  <strong>open.zero2dev.ru</strong>
+                </div>
+                <div class="proxy-inline-metric">
+                  <span>Порт</span>
+                  <strong>7443</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="proxy-section" id="manual">
+          <div class="container">
+            <div class="proxy-section-head">
+              <span class="proxy-kicker">Ручная настройка</span>
+              <h2>Параметры подключения</h2>
+              <p>
+                Используйте этот блок, если кнопка подключения не открылась в Telegram автоматически.
+              </p>
+            </div>
+
+            <div class="proxy-manual-grid">
+              <article class="panel proxy-manual-card">
+                <span>Сервер</span>
+                <strong>open.zero2dev.ru</strong>
+              </article>
+
+              <article class="panel proxy-manual-card">
+                <span>Порт</span>
+                <strong>7443</strong>
+              </article>
+
+              <article class="panel proxy-manual-card proxy-manual-card-wide">
+                <span>Secret</span>
+                <code>ee7be085c15aa9ba2b0f60993635fd13fc6f70656e2e7a65726f326465762e7275</code>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="proxy-section">
+          <div class="container">
+            <div class="proxy-section-head">
+              <span class="proxy-kicker">Как подключить</span>
+              <h2>Три простых шага</h2>
+              <p>Подключение занимает меньше минуты и не требует отдельной регистрации.</p>
+            </div>
+
+            <div class="proxy-steps-grid">
+              <article class="panel proxy-step-card">
+                <span class="proxy-step-number">1</span>
+                <h3>Нажмите кнопку подключения</h3>
+                <p>Откройте ссылку подключения на устройстве, где установлен Telegram.</p>
+              </article>
+
+              <article class="panel proxy-step-card">
+                <span class="proxy-step-number">2</span>
+                <h3>Подтвердите добавление прокси</h3>
+                <p>Telegram сам подставит нужные данные и предложит включить прокси.</p>
+              </article>
+
+              <article class="panel proxy-step-card">
+                <span class="proxy-step-number">3</span>
+                <h3>Используйте соединение</h3>
+                <p>После подтверждения прокси активируется автоматически в настройках Telegram.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="proxy-section" id="share">
+          <div class="container">
+            <article class="panel proxy-share-panel">
+              <div class="proxy-share-copy">
+                <span class="proxy-kicker">Поделиться</span>
+                <h2>Поделитесь ссылкой с другом</h2>
+                <p>Скопируйте адрес и отправьте его в любой мессенджер или удобный канал связи.</p>
+              </div>
+
+              <div class="proxy-share-actions">
+                <div class="proxy-share-url" id="shareText">https://holo2vpn.ru/proxy</div>
+                <button class="button-secondary proxy-share-button" id="copyBtn" type="button">
+                  Скопировать ссылку
+                </button>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="footer-bar">
+            <div>
+              <strong>Zero2 VPN</strong>
+              <div class="muted">Прокси для Telegram и VPN через Telegram-бота.</div>
+            </div>
+            <nav class="footer-links" aria-label="Ссылки в подвале">
+              <a href="index.htm" data-local-href="index.html">Главная</a>
+              <a href="privacy.html" data-local-href="privacy.html">Политика конфиденциальности</a>
+              <a href="terms.html" data-local-href="terms.html">Пользовательское соглашение</a>
+              <a href="https://t.me/Holo2Support" target="_blank" rel="noreferrer">Поддержка</a>
+              <a href="https://t.me/holo2vpnbot" target="_blank" rel="noreferrer">Telegram-бот</a>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      (function () {
+        if (location.protocol === "file:") {
+          document.querySelectorAll("[data-local-href]").forEach(function (node) {
+            node.setAttribute("href", node.getAttribute("data-local-href"));
+          });
+          document.querySelectorAll("[data-local-src]").forEach(function (node) {
+            node.setAttribute("src", node.getAttribute("data-local-src"));
+          });
+        }
+
+        var copyButton = document.getElementById("copyBtn");
+        var shareText = document.getElementById("shareText");
+
+        if (!copyButton || !shareText) return;
+
+        copyButton.addEventListener("click", function () {
+          var value = shareText.textContent.trim();
+          var originalText = "Скопировать ссылку";
+
+          var onSuccess = function () {
+            copyButton.textContent = "Ссылка скопирована";
+            window.setTimeout(function () {
+              copyButton.textContent = originalText;
+            }, 1800);
+          };
+
+          var onFailure = function () {
+            copyButton.textContent = originalText;
+          };
+
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(value).then(onSuccess).catch(onFailure);
+            return;
+          }
+
+          try {
+            var field = document.createElement("textarea");
+            field.value = value;
+            field.setAttribute("readonly", "");
+            field.style.position = "absolute";
+            field.style.left = "-9999px";
+            document.body.appendChild(field);
+            field.select();
+            document.execCommand("copy");
+            document.body.removeChild(field);
+            onSuccess();
+          } catch (error) {
+            onFailure();
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
